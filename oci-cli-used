@@ -1,0 +1,24 @@
+# Get ns account
+oci os ns get
+
+# Copy data to bucket
+oci os object put -ns grj1omvj8vpi -bn nome-bucket --name nome-arquivo-para-bucket  --file arquivo-origem
+
+### Linkdin dicas
+#
+https://www.linkedin.com/in/nikhil-karnik/detail/recent-activity/posts/
+
+
+#### Outros comandos
+Additional commands for reference:
+
+Get the OCID for the compartment --> Identity --> Compartments --> Its will list all the compartments, find the OCID for the compartment which you have access.
+
+List all Buckets created in compartment
+
+oci os bucket list -ns gsebmcs00026 --compartment-id ocid1.compartment.oc1..aaaaaaaa3evaydxyb4gvdti2i4yjzdssr6lauqxzhdh2pzzglfzam54jm6q
+
+List objects in the Bucket
+
+oci os object list -ns gsebmcs00026 -bn ADWC
+
