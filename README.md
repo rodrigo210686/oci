@@ -1,1 +1,1 @@
-# Meu Primeiro Repositorio
+# Recursos para Oracle Cloud
